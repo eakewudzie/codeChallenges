@@ -14,7 +14,8 @@ h1 {
 }
 
 .red {
-  background: rgb(255, 0, 0);
+  /* background: rgb(255, 0, 0); */
+  background: linear-gradient(90deg);
 }
 
 .green {
