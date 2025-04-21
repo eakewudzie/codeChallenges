@@ -15,7 +15,9 @@ h1 {
 
 .red {
   /* background: rgb(255, 0, 0); */
-  background: linear-gradient(90deg,rgb(255,0,0));
+  /* background: linear-gradient(90deg,rgb(255,0,0)); */ 
+  /* degree is he gradientDirection */
+  background: linear-gradient(90deg, rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0, 0, 255));
 }
 
 .green {
