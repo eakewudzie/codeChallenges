@@ -1,3 +1,5 @@
+/* -----css for all 3 markers--------- */
+
 h1 {
   text-align: center;
 }
@@ -25,13 +27,15 @@ h1 {
   border-left: 10px double rgba(0, 0, 0, 0.75);
 }
 
+/* both divs appear side by side here */
 .cap, .sleeve {
   display: inline-block;
 }
 
 .red {
+  /* linear-gradient here....flows from top to bottom with different colors, 180deg is by default here */
   background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);/*offsetX offsetY blurRadius spreadRadius color*/
 }
 
 .green {
@@ -45,37 +49,3 @@ h1 {
 }
 
 
-
-/* 
-h1 {
-  text-align: center;
-}
-
-.container {
-  background-color: rgb(255, 255, 255);
-  padding: 10px 0;
-}
-
-.marker {
-  width: 200px;
-  height: 25px;
-  margin: 10px auto;
-}
-
-.sleeve {
-  width: 110px;
-  height: 25px;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.red {
-  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-}
-
-.green {
-  background: linear-gradient(#55680D, #71F53E, #116C31);
-}
-
-.blue {
-  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-} */
