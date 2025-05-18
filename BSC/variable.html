@@ -11,7 +11,7 @@
             let y = 120;
             document.getElementById("try").innerHTML=y +" is the num";
            
-            const b = 34;
+            let b = 34;
             b= 4; //no change
             console.log(b);
 
@@ -22,7 +22,8 @@
             };
 
             console.log(multiply(4, 5)); // returns 20
-            // document.getElementById("try").innerHTML=multiply(4,5) +" is the num";
+            document.getElementById("try").innerHTML=multiply(4,5) +" is the num";
+            document.getElementById("try").innerHTML += "<br>" + multiply(4, 5) + " is the num"; //work on variabe b
             
         </script>
     </body>
