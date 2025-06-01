@@ -1,14 +1,8 @@
 let character = 'Hello';
-console.log(character);
-
-
-// let character = 'Hello';
 let count = 8;
 let rows = ["Naomi", "Quincy", "CamperChan"];
-console.log(rows[0]);
+rows.push("freeCodeCamp");
 
-
-
-
-rows[2]= 10;
+let popped = rows.pop();
+console.log(popped);
 console.log(rows);
