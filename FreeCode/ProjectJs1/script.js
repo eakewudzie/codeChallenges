@@ -1,40 +1,15 @@
-
-
-
-// let character = 'Hello';
-// let count = 8;
-// let rows = ["Naomi", "Quincy", "CamperChan"];
-// let pushed = rows.push("freeCodeCamp");
-// console.log(pushed);
-// let popped = rows.pop();
-// console.log(popped);
-// console.log(rows);
-
-
-
-
-
-
 const character = "#";
 const count = 8;
 const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
-  rows.push(i);
+  rows.push(character);
 }
 
 let result = ""
-console.log(result);
-
-
-
 
 for (const row of rows) {
-  console.log(result=row+result);
-
+  result = result + row + "\n";
 }
 
 console.log(result);
-console.log(rows);
-
-
