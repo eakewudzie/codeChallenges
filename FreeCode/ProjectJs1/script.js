@@ -28,5 +28,6 @@ padRow();
 
 const call = padRow();
 console.log(call);
+console.log("this is the output of the call variable that was assigned the value of func")
 
 
