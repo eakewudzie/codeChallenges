@@ -21,7 +21,7 @@ console.log(result);
 
 
 function padRow() {
-
+return "Hello!"
 }
 padRow();
 
